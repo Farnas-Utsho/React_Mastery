@@ -23,3 +23,35 @@ function Home() {
 }
 
 export default Home -->
+
+<!-- Reuse Componenets -->
+## Props is used for dynamic data .only readable
+<!-- function Contact(ContactProps)  {
+  return (
+    <div> My name is {ContactProps.name}.My number is {ContactProps.number } </div>
+  )
+} -->
+
+
+## State is used for static data.Can be updated and reusable . It is a private property .It is a object of a react
+  <!-- Using state
+   // state ={
+    //     name:"Utsho",
+    //     age:"990",
+    //     prof:"SQA"
+
+    // }
+
+    // Using constructor
+    // constructor(props){
+    //     super(props);
+    //     this.state={
+    //         name:"Utsho",
+    //         age:"990",
+    //         prof:"SQA"}
+    // } -->
+
+
+
+
+## Hooks are used for state and props
