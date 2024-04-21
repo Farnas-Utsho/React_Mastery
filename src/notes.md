@@ -51,7 +51,23 @@ export default Home -->
     //         prof:"SQA"}
     // } -->
 
+<!-- Using Button To change prof value dynamicaly -->
+ <!-- changevalue(){
+        this.setState({
+
+            prof:"Alpha"
+        })
+
+
+    }
+    shortform = this.changevalue.bind(this,this.prof)
+
+<button onClick={this.shortform}>Change Value</button> -->
 
 
 
 ## Hooks are used for state and props
+
+
+## React Fregment
+=> It is used for removing parent div =(<>..</>)
